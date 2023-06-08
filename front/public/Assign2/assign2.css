@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    border: 2px solid black;
+    color:rgb(18, 92, 68);
+    background-color: rgb(31, 159, 148);
+}
+
+#file, #email{
+    color: rgb(140, 15, 15);
+}
+
+span{
+    font-size: 30px;
+    color: rgb(18, 85, 143);
+}
+
+h1{
+    color: aliceblue;
+}
+.n{
+    color: rgb(172, 78, 27);
+}
+
+.t{
+    color: rgb(172, 78, 27);
+    background-color:azure;
+}
+
+form{
+    border: 2px solid black;
+    color:rgb(18, 92, 68);
+    background-color: beige;
+}
+
+video{
+    width: 360px;
+    height: 200px;
+}
+
+iframe{
+    width:720px;
+    height:400px;
+    border: 2px solid red;
+}
+
+div{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
