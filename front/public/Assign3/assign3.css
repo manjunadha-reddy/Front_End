@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(148, 196, 190);
+    border: 2px solid black;
+}
+h1{
+    color: rgb(20, 49, 103);
+    border: 2px solid yellowgreen;
+    
+}
+
+.highlight{
+    color: brown;
+}
+
+ul#last li:last-child {
+    color: chocolate;
+}
+
+.external:visited{
+    color: blueviolet;
+}
+
+.external:hover{
+    color: rgb(43, 226, 217);
+}
+
+div{
+    margin: 20px;
+    border: 2px solid black;
+}
+
+article{
+    padding: 10px;
+    color: azure;
+}
+
+.width_height{
+    width: 200px;
+    height: 150px;
+    border: 2px solid green;
+    background-color: rgb(187, 149, 149);  
+    color: red; 
+}
+
+img{
+    border: 2px solid rgb(57, 93, 160);
+    width: 280px;
+    height: 300px;
+}
+
+ul#square{
+    list-style-type: square;
+}
+
+ol.decimal{
+    list-style-type: decimal;
+}
