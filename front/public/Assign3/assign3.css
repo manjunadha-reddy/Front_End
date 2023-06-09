@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(148, 196, 190);
+    background-color: rgb(192, 221, 218);
     border: 2px solid black;
 }
 h1{
@@ -13,7 +13,7 @@ h1{
 }
 
 ul#last li:last-child {
-    color: chocolate;
+    background-color: chocolate;
 }
 
 .external:visited{
@@ -55,3 +55,19 @@ ul#square{
 ol.decimal{
     list-style-type: decimal;
 }
+
+.none{
+    list-style-type: none;
+}
+
+table{
+    background-color: darkseagreen;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid #b85656;
+    text-align: left;
+}
+  
