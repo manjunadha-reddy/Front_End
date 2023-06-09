@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d1b2b2;
+    padding: 10px;
+}
+.logo img {
+    height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #3a3636;
+}
+/* Navigation styles
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+}  
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+@media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: center;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+} */
+/* container */
+.flex-parent {
+    display: flex;
+    align-items: center;
+    background-color: #638594;
+    justify-content: space-evenly;
+}
+.flex-child{
+    width: 100px;
+    text-align: center;
+    background-color: coral;
+}
+#centre{
+    flex: 1;
+    background-color: #90a670;
+}
+/* card grid */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.card {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border:1px solid rosybrown;
+    background-color: #f1f1f1;
+}
+
+  
