@@ -62,12 +62,48 @@ ol.decimal{
 
 table{
     background-color: darkseagreen;
-    border: 2px solid black;
     border-collapse: collapse;
 }
 
 td, th {
-    border: 2px solid #b85656;
-    text-align: left;
+    border: 2px solid #bc7474;
+    text-align: center;
+    padding: 8px;
+}
+
+.fixed-width {
+    width: 200px;
+}
+
+.container {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
 }
   
+.element {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.stacked {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+  
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
