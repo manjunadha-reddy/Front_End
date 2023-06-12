@@ -64,6 +64,7 @@ nav a {
     width: 100px;
     text-align: center;
     background-color: coral;
+    /* flexgrow */
 }
 #centre{
     flex: 1;
