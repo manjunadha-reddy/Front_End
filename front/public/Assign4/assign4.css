@@ -52,7 +52,8 @@ nav a {
       border-top: 1px solid rgba(255, 255, 255,0.3); 
       border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
     }
-} */
+} */               
+/* @media screen */
 /* container */
 .flex-parent {
     display: flex;
@@ -84,5 +85,4 @@ nav a {
     border:1px solid rosybrown;
     background-color: #f1f1f1;
 }
-
-  
+/* Sticky */
