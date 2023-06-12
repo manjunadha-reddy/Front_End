@@ -97,13 +97,40 @@ td, th {
     width: 300px;
     border: 1px solid black;
 }
-  
+/* text on top of the Image not working properly */
 .absolute {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     padding: 10px;
     background-color: #ccc;
     margin-bottom: 10px;
 }
+.top {
+    position: relative;
+    z-index: 2;
+}
+.image {
+    position: relative;
+    z-index: 1;
+}
+.firstchild > :first-child {
+    background-color: #a15858;
+}
+/* tool tip (not properly working) */
+.tooltip {
+    position: relative;
+}
+.tooltip::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.tooltip:hover{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  
