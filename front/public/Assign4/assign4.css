@@ -84,5 +84,100 @@ nav a {
     text-align: center;
     border:1px solid rosybrown;
     background-color: #f1f1f1;
-}
+} 
 /* Sticky */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: #95b3c0;
+    height: 500px;
+}
+  
+.sidebar {
+    width: 200px;
+    background-color: #ceb7b7;
+    border: 1px solid rgb(72, 59, 43);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+  
+.content {
+    flex: 1;
+    overflow: auto;
+}
+/* 5 */
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing-card h4 {
+  font-size: 18px;
+}
+
+.pricing-card p {
+  font-size: 14px;
+}
+
+.pricing-card button {
+  background-color: #212121;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* grid */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.grid-item {
+    flex: 0 0 auto;
+    margin: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-item-1 {
+    flex-basis: 50%;
+}
+
+.grid-item-2 {
+    flex-basis: 50%;
+}
+
+.grid-item-3 {
+    flex-basis: 33.33%;
+}
+
+.grid-item-4 {
+    flex-basis: 25%;
+}
+/* footer */
+
+main, footer {
+    flex: 1;
+}
+  
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #95b3c0;
+}
