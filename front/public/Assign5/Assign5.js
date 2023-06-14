@@ -100,8 +100,6 @@ if (name === "Alice") {
     console.log("Hello, stranger!");
 }
 //9
-// Declare an array of objects books with properties title and author for each book. 
-// Search through the array and find the author of the book with the title "The Great Gatsby".
 const books = [
     { title: "To Kill a Mockingbird", author: "Harper Lee" },
     { title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
@@ -114,3 +112,8 @@ for(i=0;i<books.length;i++){
     }
 }
 //10
+function calculateArea(length, width) {
+    return length * width;
+}
+const area = calculateArea(4, 5);
+console.log(area);
